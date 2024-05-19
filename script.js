@@ -252,7 +252,7 @@ function moveRock() {
 
 // 生成隨機數量的落石
 function generateRocks() {
-    const rockCount = Math.floor(Math.random() * 4) + 2; // 生成2到4个落石
+    const rockCount = Math.floor(Math.random() * 3) + 2; // 生成2到4个落石
     rocks = [];
     for (let i = 0; i < rockCount; i++) {
         const rock = { row: 0, col: Math.floor(Math.random() * 5) };
